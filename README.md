@@ -21,7 +21,7 @@ Segment-anything/
 ├── sam_vit_h_4b8939.pt # Checkpoint SAM
 ├── sam2.1_hiera_large.pth # Checkpoint SAM 2
 ├── SAM_Eval.ipynb # Notebook đánh giá & so sánh mô hình
-├── Data_split.ipynb # Notebook chia & chuẩn hóa dữ liệu
+├── data_split.ipynb # Notebook chia & chuẩn hóa dữ liệu
 └── README.md
 ```
 ---
@@ -56,8 +56,8 @@ Dự án sử dụng **5 Datasets**, bao phủ nhiều bài toán khác nhau:
 | [**Kvasir-SEG**](https://www.kaggle.com/datasets/debeshjha1/kvasirseg) | Phân đoạn ảnh y tế (nội soi tiêu hóa) |
 | [**MSRA-B**](http://mftp.mmcheng.net/Data/MSRA-B.zip) | Bộ dữ liệu cổ điển cho bài toán saliency |
 
-Các bộ dữ liệu được **tiền xử lý và chia lại** bằng `Data_split.ipynb` để tạo tập **eval** dùng chung.
+Các bộ dữ liệu được **tiền xử lý và chia lại** bằng `Data_split.ipynb`, sau khi cho chạy file sẽ cho ra dạng.
 
-**Lưu ý** Điều chỉnh các đường dẫn trong các file jupyter notebook phù hợp với nơi để
+
 ---
 
