@@ -58,8 +58,7 @@ Dự án sử dụng **5 Datasets**, bao phủ nhiều bài toán khác nhau:
 | [**Kvasir-SEG**](https://www.kaggle.com/datasets/debeshjha1/kvasirseg) | Phân đoạn ảnh y tế (nội soi tiêu hóa) |
 | [**MSRA-B**](http://mftp.mmcheng.net/Data/MSRA-B.zip) | Bộ dữ liệu cổ điển cho bài toán saliency |
 
-Các bộ dữ liệu được **tiền xử lý và chia lại** bằng `Data_split.ipynb`, sau khi cho chạy file sẽ cho ra dạng.
-
+Các bộ dữ liệu được **tiền xử lý và chia lại** bằng `Data_split.ipynb`, sử dụng các folder **eval** để chạy evaluation và albation.
 
 ---
 
